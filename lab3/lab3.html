@@ -1,0 +1,91 @@
+<html>
+<head>
+    <style>
+        #div1 {
+            position: absolute;
+            text-align: center;
+            height: 700px;
+            width: 1000px;
+            background-color: white;
+            border: 2px dashed black;
+            z-index: 1;
+        }
+
+        #div2 {
+            position: absolute;
+            text-align: center;
+            height: 600px;
+            width: 300px;
+            top: 100px;
+            left: 50px;
+            background-color: LightBlue;
+            border: 1px dashed brown;
+            z-index: 2;
+        }
+
+        #div3 {
+            position: absolute;
+            text-align: center;
+            height: 600px;
+            width: 600px;
+            top: 100px;
+            left: 400px;
+            background-color: LightGray;
+            border: 1px dashed black;
+            z-index: 2;
+        }
+        a{
+            text-decoration: none;
+        }
+        .input{width: 250px; height: 30px; color: gray; font-size: 20px;}
+    </style>
+</head>
+
+<body>
+    <h1 id="div1">Logon Page</h1>
+
+    <div id="div2">
+        <h1>Members Sign in</h1>
+        <form>
+            <!-- Form content goes here -->
+            <input type="text" class="input" name="username" value="username"><br><br>
+
+            <input type="password" class="input" name="password" value="password"><br><br>
+
+            <input type="submit" class="input" value="Login">
+            <br><br>
+            <input type="checkbox">tick to remember details
+            <br><br>
+        <a href="https://uic.edu.cn">forgotten password:click here</a ><br><br>
+        <img src="uic.jpeg" width="200" height="150" alt="uic.jpeg"/>
+
+        </form>
+        <br>
+
+    </div>
+
+    <div id="div3">
+        <h1>New Members Sign Up</h1>
+        <form style="left:100px">
+            <!-- Form content goes here -->
+            <input type="text" class="input" name="first name" value="frist name">
+            <input type="text" class="input" name="last name" value="last name">
+            <br><br>
+            <input type="text" class="input" name="username" value="username">
+            <input type="date" class="input" id="date" name="date">
+            <br><br>
+            <input type="password" class="input" name="login_password" value="password">
+            <input type="email" class="input" name="email" value="email">
+            <br><br>
+            <input type="password" class="input" name="conform password" value="conform password">
+            <input type="text" class="input" name="mobilephone" value="mobile phone">
+            <br><br>
+            <textarea name="comments" rows="20" cols="60">     comments</textarea>
+            <br><br>
+            <input type="submit" class="input" value="Submit">
+            <input type="reset" class="input" value="Reset">
+        </form>
+    </div>
+
+</body>
+</html>
